@@ -1,0 +1,30 @@
+3.2.1
+   Picture included, 29 compares
+3.2.5
+   If the keys can be inserted in any order, decreasing order of likely frequency
+   of access. If we have that estimate on how often the search keys will be accessed, 
+   we have an idea on the keys that will be accessed the most vs. the keys that will
+   not be accessed as frequent. So the "most" accessed keys can be at the beinning of 
+   the tree, while the less frequent can be lower down the tree. This is to have faster
+   access to the frequently searched keys. If however we want "equal" amount of tmie of 
+   access/retrieval, then inserting the keys in a 'balanced' way would allow search hits
+   to be ~2 lg N on the average
+3.2.15 
+a.   floor(Q) = Q
+
+b.   select(5) = Q
+
+c.   ceiling(Q) = Q 
+
+d.   rank(J) = 3
+
+e.   size(D, T) = 7
+
+f.   Keys in the range of D and T
+     D
+     E
+     J 
+     M 
+     Q
+     S
+     T
